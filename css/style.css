@@ -1,0 +1,20 @@
+.s_tbdr{
+    border: 1px dashed red;
+}
+
+.s_headtop{
+    height:70px;
+    background: #2874F0;
+}
+.s_headbot{
+    height:98px;
+}
+main{
+height: 7435px;
+}
+.s_foottop{
+    height: 2640px;
+}
+.s_footbot{
+    height: 345px;
+}
