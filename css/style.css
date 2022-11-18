@@ -1,13 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .s_tbdr{
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
 }
-
 .s_headtop{
-    height:70px;
+    height:60px;
     background: #2874F0;
 }
+#s_plus_icon{
+    color: black;
+}
+.s_font{
+    font-family: 'Roboto', sans-serif;
+}
+.s_fs_plus{
+  font-size: 8.6px;
+}
+.s_plus_bg{
+    background-image: url("../img/plus\ icon.png");
+    background-repeat: no-repeat ;
+    background-size:12px 12px;
+    background-position: center right;
+}
 .s_headbot{
-    height:98px;
+    height:108px;
+
+}
+.s_imgtitel{
+color: black;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight:595;
+
+}
+.s_imgsize{
+    height: 64px;
+    width: 64px;
+}
+.s_rounded{
+    border-radius: 2px;
+}
+.s_btn_size{
+    height: 31px;
+    width: 122px;
+    margin-left:0px;
+    padding-top:2px;
 }
 main{
 height: 7435px;
@@ -17,4 +53,12 @@ height: 7435px;
 }
 .s_footbot{
     height: 345px;
+    background-color: #172337;
+}
+.img-fluid {
+    max-width: 80px;
+    height: auto;
+}
+ a:hover{
+    color: wheat;
 }
