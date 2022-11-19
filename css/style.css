@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+.s_tbdr{
+    border: 1px dashed red;
+}
 
 .s_headtop{
-    height:60px;
+    height:54px;
     background: #2874F0;
+    padding-left: 140px;
 }
 #s_plus_icon{
     color: black;
@@ -21,7 +24,7 @@
     background-position: center right;
 }
 .s_headbot{
-    height:108px;
+    height:114px;
 
 }
 .s_imgtitel{
@@ -36,8 +39,19 @@ font-weight:595;
     width: 64px;
 }
 .s_rounded{
+
     border-radius: 2px;
 }
+.s_searchbox{
+    width: 444px;
+}
+.s_anchor{
+    font-size:13.5px;
+}
+.s_nav{
+    padding-bottom: 100px !important;
+}
+
 .s_btn_size{
     height: 31px;
     width: 122px;
