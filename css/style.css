@@ -1,77 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-.s_tbdr{
-    border: 1px dashed red;
+
+.s_tbdr {
+    /* border: 1px dashed red; */
 }
 
-.s_headtop{
-    height:54px;
+.s_headtop {
+    height: 54px;
     background: #2874F0;
     padding-left: 140px;
 }
-#s_plus_icon{
+
+#s_plus_icon {
     color: black;
 }
-.s_font{
+
+.s_font {
     font-family: 'Roboto', sans-serif;
 }
-.s_fs_plus{
-  font-size: 8.6px;
+
+.s_fs_plus {
+    font-size: 8.6px;
 }
-.s_plus_bg{
+
+.s_plus_bg {
     background-image: url("../img/plus\ icon.png");
-    background-repeat: no-repeat ;
-    background-size:12px 12px;
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
     background-position: center right;
 }
-.s_headbot{
-    height:114px;
 
+.s_headbot {
+    height: 114px;
 }
-.s_imgtitel{
-color: black;
-font-family: 'Roboto', sans-serif;
-font-size: 14px;
-font-weight:595;
+.s_input_history{
+height:360px;
+background-color:white;
+z-index: 1;
+}
+input:focus + .s_input_history{
+    display: block !important;
+}
 
+.s_imgtitel {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 595;
+ 
 }
-.s_imgsize{
+
+.s_imgsize {
     height: 64px;
     width: 64px;
 }
-.s_rounded{
+
+.s_rounded {
 
     border-radius: 2px;
 }
-.s_searchbox{
+
+.s_searchbox {
     width: 444px;
 }
-.s_anchor{
-    font-size:13.5px;
+
+.s_anchor {
+    font-size: 13.5px;
 }
-.s_nav{
+
+.s_nav {
     padding-bottom: 100px !important;
 }
 
-.s_btn_size{
+.s_btn_size {
     height: 31px;
     width: 122px;
-    margin-left:0px;
-    padding-top:2px;
+    margin-left: 0px;
+    padding-top: 2px;
 }
-main{
-height: 7435px;
+
+main {
+    height: 7435px;
 }
-.s_foottop{
+
+.s_foottop {
     height: 2640px;
 }
-.s_footbot{
+
+.s_footbot {
     height: 345px;
     background-color: #172337;
 }
+
 .img-fluid {
     max-width: 80px;
     height: auto;
 }
- a:hover{
+
+a:hover {
     color: wheat;
 }
